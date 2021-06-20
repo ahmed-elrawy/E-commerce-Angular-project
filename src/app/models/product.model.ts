@@ -2,7 +2,7 @@ export interface ProductModelServer {
   id: number;
   name: string;
   category: string;
-  description: String;
+  description: string;
   image: string;
   price: number;
   quantity: number;
@@ -10,7 +10,7 @@ export interface ProductModelServer {
 }
 
 
-export interface serverResponse {
+export interface serverResponse  {
   count: number;
   products: ProductModelServer[]
 };

@@ -12,6 +12,10 @@ import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from './components/product/product.component';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
 import { HttpClientModule } from "@angular/common/http";
+import { NgxSpinnerModule } from 'ngx-spinner';
+import {ToastrModule} from 'ngx-toastr';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,10 @@ import { HttpClientModule } from "@angular/common/http";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxSpinnerModule,
+    ToastrModule.forRoot()
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
