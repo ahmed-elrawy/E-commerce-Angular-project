@@ -150,7 +150,7 @@ export class CartService {
             timeOut: 1500,
             progressBar: true,
             progressAnimation: 'increasing',
-            positionClass: 'toast-top-right'
+            positionClass: 'toast-top-full-width'
           })
         }
         this.CalculateTotal();
