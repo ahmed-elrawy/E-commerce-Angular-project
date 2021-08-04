@@ -15,6 +15,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { NgxSpinnerModule } from 'ngx-spinner';
 import {ToastrModule} from 'ngx-toastr';
 
+import { SafePipeModule } from 'safe-pipe';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import {ToastrModule} from 'ngx-toastr';
     NoopAnimationsModule,
     HttpClientModule,
     NgxSpinnerModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    SafePipeModule
     
   ],
   providers: [],
